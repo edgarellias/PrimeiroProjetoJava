@@ -5,7 +5,7 @@ public class Adivinhacao {
     public static void main(String[] args) {
         Scanner leitura = new Scanner(System.in);
         Random random = new Random();
-        int numeroAleatorio = random.nextInt(10);
+        int numeroAleatorio = random.nextInt(100);
         int tentativas = 0;
 
         while(tentativas < 5){
@@ -28,9 +28,6 @@ public class Adivinhacao {
                 System.out.println("Número de tentativas excedido, encerrando programa.");
                 break;
             }
-
-
-
         }
 
     }
